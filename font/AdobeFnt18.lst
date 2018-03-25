@@ -1,0 +1,79 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-BoldCond.eot
+FileModTime:1453293441
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MyriadPro-BoldCond
+FamilyName:Myriad Pro
+StyleName:Bold Condensed
+FullName:Myriad Pro Cond Bold
+MenuName:Myriad Pro Cond
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-BoldCond.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:95244
+FileModTime:1453293731
+WeightClass:700
+WidthClass:3
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Bold Cond
+NameArray:0,Mac,4,Myriad Pro Cond Bold
+NameArray:0,Win,1,Myriad Pro Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-BoldCond.woff
+FileModTime:1453293447
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-Regular.eot
+FileModTime:1453304515
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+FullName:MyriadPro-Regular
+MenuName:Myriad Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:116052
+FileModTime:1453304504
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,MyriadPro-Regular
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\New folder\Review\Font\MyriadPro-Regular.woff
+FileModTime:1453304513
+%EndFont
+

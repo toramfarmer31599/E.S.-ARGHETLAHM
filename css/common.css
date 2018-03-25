@@ -1,0 +1,311 @@
+@charset "utf-8";
+@font-face{
+	font-family:mytitlefont;
+	src:url(../font/MyriadPro-BoldCond.eot),
+	    url(../font/MyriadPro-BoldCond.ttf),
+		url(../font/MyriadPro-BoldCond.woff);
+		
+}
+@font-face{
+	font-family:mycontentfont;
+	src:url(../font/MyriadPro-Regular.eot),
+	    url(../font/MyriadPro-Regular.ttf),
+		url(../font/MyriadPro-Regular.woff);
+		
+}
+
+body{
+	padding:0px;
+	margin:0px;
+    background-color:#069;
+}
+#guildlogo{
+	background-attachment:scroll;
+	box-shadow:0px 5px 10px #000000;
+	margin-left:80px;
+	margin-top:80px;
+    padding:0px;
+	position:relative;
+	width:300px;
+	height:300px;
+	margin-left:50px;
+    border-radius:200px;
+}
+
+#BG{
+	margin:0px;
+	padding:0px;
+	width:1366px;
+	height:768px;
+	background-image:url(../images/guild.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	z-index:1;
+	
+
+}
+#logo{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+#logo{
+	width:1366px;
+	height:768px;
+	background-image:url(../images/Logo_toramonline.png);
+	/*Phepdoi tam va canh #logo nam chinh giua*/
+	position:absolute;
+	z-index:500;
+	top:20%;
+	left:20%;
+	padding-bottom:0px;
+	margin-top:-280px;
+	margin-left:-285px;
+} 
+#start{
+	padding:0px;
+	margin:0px;
+	background-color:rgba(0,51,102,0.6);
+	background-repeat:no-repeat;	
+	width:100%;
+	height:50px;
+}
+
+#navbar{
+	padding-top:0px;
+	margin-top:615px;
+	background-color:rgba(0,51,102,0.6);
+	width:100%;
+	height:45px;
+	border-radius:25px;
+	position:relative;
+	z-index:900;
+}
+#navbar ul{
+	position:relative;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	margin-left:280px;
+}
+#navbar ul li{
+	display:block;
+	float:left;
+
+	padding-top:5px;
+    transition:all ease .5s;
+}
+
+#navbar ul li a{
+	text-decoration:none;
+	font-family:mytitlefont;
+	color:#FFFFFF;
+	font-size:16pt;
+	display:block;
+	padding-top:0px;
+	border-bottom:solid 3pt #036;
+	background-color:#069;
+
+	padding-left:20px;
+	padding-right:20px;
+	box-shadow: 2px 2px 5px #000000;
+	text-shadow: 0px 0px 8px #000;
+	transition:all ease 0.5s;
+}
+
+#contentbox{
+	padding:0px;
+	margin-top:0px;
+	height:50px;
+	width:100%;
+}
+#intro{
+	position:relative;
+	z-index:160;
+	background-color:rgba(0,204,255,0.4);
+	padding:0px;
+	margin-top:50px;
+	margin-left:50px;
+}
+
+
+#navbar ul li:hover{
+	transition:all ease 0.5s;
+	border-radius:25px;
+}
+
+
+
+
+#navbar ul li:hover{
+	background-color:#FFF;
+	transition:all ease 0.5s;
+	border-radius:25px;
+}
+
+#navbar ul li a:hover{
+	border-bottom:solid 3pt #0FF;
+	color:#0FF;
+	transition:all ease-in-out 0.5s;
+	border-radius:60px;
+}
+
+#homenavi{
+    position:absolute;
+	width:1350px;
+	height:768px;
+	z-index:150;
+	padding:0px;
+	margin-left:-100px;
+	margin-top:50px;
+	background-color:rgba(0,255,255,0.1);
+	border-radius:20px;
+}
+#introductionnavi{
+	background-attachment:fixed;
+	margin-left:-5px;
+
+}
+
+#introductionnavi ul{
+	list-style-type:none;
+	position:absolute;
+	z-index:200;
+	font-size:20px;
+	margin-left:-25px;
+	font-family:mytitlefont;
+	text-decoration:none;
+	margin-top:45px;
+	padding:0px;
+	width:180px;
+	height:45px;
+}
+#introductionnavi ul li a{
+	text-decoration:none;
+	background-color:rgba(0,51,102,0.5);
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+	box-shadow: 2px 2px 5px #000000;
+	text-shadow: 0px 0px 8px #000;
+	transition:all ease 0.5s;
+	list-style-type:none;
+	display:block;
+	margin-top:50px;
+	padding:0px;
+	margin-left:30px;
+	transition:all ease 0.5s;
+	color:#FFF;
+	text-align:center;
+	position:relative;
+	z-index:108;
+	
+}
+#introductionnavi ul li{
+	background-color:rgba(0,153,204,0);
+	position:relative;
+	z-index:105;
+	padding-left:0px;
+	background-position:center;
+	width:100%;
+	height:30px;
+}
+#introductionnavi ul li a:hover{
+	border-bottom:solid 3pt #0FF;
+	color:#0FF;
+	transition:all ease-in-out 0.5s;
+}
+#introductionnavi ul li:hover{
+    background-color:rgba(0,255,255,0.5);
+	border-radius:80px;
+}
+
+#info{
+	background-color:rgba(0,51,102,0.2);
+	margin-top:50px;
+	margin-left:300px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:50px;
+	color:#FFF;
+	font-family:mytitlefont;
+	position:absolute;
+	z-index:500;
+	box-shadow:0px 0px 25px #00FFFF;
+}
+#infotext{
+	background-color:rgba(0,51,102,0.8);
+	margin-top:40px;
+	margin-right:180px;
+	margin-left:285px;
+	padding-top:80px;
+	padding-left:30px;
+	padding-right:10px;
+	border-radius:5px;
+	color:#FFF;
+	font-family:mycontentfont;
+	position:absolute;
+	box-shadow:2px 3px 15px #000;
+	background-position:center;
+	margin-bottom:20px;
+}
+#pecora{
+	background-position:center;
+	height:10%;
+	width:10%;
+}
+
+#introductionnavibg{
+	background-color:rgba(0,255,255,0.4);
+	width:165px;
+    height:300px;
+	margin-top:85px;
+	padding:0px;
+	position:absolute;
+	z-index:135;
+    border-radius:25px;
+	box-shadow: 0px 0px 45px rgba(255,255,255,0.6);
+	
+}
+#guildrules{
+    background-color:rgba(0,51,102,0.2);
+	margin-left:30px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:50px;
+	color:#FFF;
+	font-family:mytitlefont;
+	position:absolute;
+	z-index:500;
+	box-shadow:0px 0px 25px #00FFFF;
+}
+.sticky-topbar{
+	width:100%;
+}
+
+hr{
+	color:#0FF;
+	margin-bottom:20px;
+	margin-top:-30px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+#news{
+	margin-left:100px;
+	position:absolute;
+	z-index:200;
+}
+
+
+
+

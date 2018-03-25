@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#infotext{
+
+	margin-left:235px;
+	margin-right:400px;
+}
+
+
+#send{
+	text-decoration:none;
+	background-color:#09C;
+	border-radius:40px;
+	font-family:mycontentfont;
+	color:white;
+	box-shadow: 0px 0px 20px #0FF;
+}
+#reset{
+	background-color:#09C;
+	border-radius:40px;
+	font-family:mycontentfont;
+	color:white;
+	box-shadow:0px 0px 20px #0FF;
+}

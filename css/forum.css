@@ -1,0 +1,17 @@
+@charset "utf-8";
+#forum{
+	background-color:rgba(0,102,204,0.5);
+	color:#FFF;
+	text-decoration:none;
+	font-family:mycontentfont;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:0px 0px 10px #09C;
+}
+#contentbox{
+	height:500px;
+}
+#infotext{
+	margin-right:500px;
+}
+
